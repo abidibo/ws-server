@@ -1,4 +1,4 @@
-# ws-server
+# ws-server-ftw
 
 [![Build Status](https://travis-ci.com/abidibo/ws-server.svg?branch=master)](https://travis-ci.com/abidibo/ws-server)
 [![Coverage Status](https://coveralls.io/repos/github/abidibo/ws-server/badge.svg?branch=master)](https://coveralls.io/github/abidibo/ws-server?branch=master)
@@ -11,7 +11,7 @@ ws-server was developed in order to allow a developer to easily mock websocket a
 
 # Install
 
-    $ npm install ws-server --save-dev
+    $ npm install ws-server-ftw --save-dev
 
 # Getting started
 
@@ -32,11 +32,11 @@ Incoming messages will be printed to the console.
 
 ## Start the cli
 
-    $ ./node_modules/ws-server/src/index.js -i mydb.json
+    $ ./node_modules/ws-server-ftw/bin/ws-server.js -i mydb.json
 
 Available options:
 
-    $ ./node_modules/ws-server/src/index.js -h
+    $ ./node_modules/ws-server-ftw/bin/ws-server.js -h
 
     usage: index.js [-h] [-v] [-p PORT] -i DB
 
