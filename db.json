@@ -1,0 +1,24 @@
+{
+  "api": {
+    "v1": {
+      "ui": {
+        "modalIsOpen": true,
+        "sidebarStyle": "dark"
+      },
+      "users": [
+        {
+          "username": "admin",
+          "email": "admin@example.com",
+          "id": 1,
+          "role": "admin"
+        },
+        {
+          "username": "guest",
+          "email": "guest@example.com",
+          "id": 2,
+          "role": "guest"
+        }
+      ]
+    }
+  }
+}
