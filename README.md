@@ -1,10 +1,12 @@
 # ws-server
 
-> Mock websocket endpoints with ease
-
 [![Build Status](https://travis-ci.com/abidibo/ws-server.svg?branch=master)](https://travis-ci.com/abidibo/ws-server)
 
+> Mock websocket endpoints with ease
+
 ws-server was developed in order to allow a developer to easily mock websocket apis in a few seconds. The idea is taken from [json-server](https://github.com/typicode/json-server), a great package which let's you mock entire rest apis.
+
+![Screenshot](screenshot.png)
 
 # Install
 
@@ -175,3 +177,11 @@ Entering `deepmerge {"users": [{"username": "foo"}]}` and pressing Enter, the cl
         }
       ]
     }
+
+## Contributing
+
+This project it's quite simple actually, I've developed it to match my needs during some UI implementations with react relying upon socket communication.
+
+Pull request and new contributions will be much appreciated. Please just make sure to be compliant with the eslint configuration before submitting.
+
+Also I preferred not to arm ES6 and ES7 features here, so let's keep the code ES2015 compatible, in order to avoid babel transpiling.
