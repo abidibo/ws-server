@@ -32,11 +32,11 @@ Incoming messages will be printed to the console.
 
 ## Start the cli
 
-    $ ./node_modules/ws-server-ftw/bin/ws-server.js -i mydb.json
+    $ node ./node_modules/ws-server-ftw/bin/ws-server.js -i mydb.json
 
 Available options:
 
-    $ ./node_modules/ws-server-ftw/bin/ws-server.js -h
+    $ node ./node_modules/ws-server-ftw/bin/ws-server.js -h
 
     usage: index.js [-h] [-v] [-p PORT] -i DB
 
