@@ -1,6 +1,6 @@
 {
   "name": "ws-server-ftw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mock websocket endpoints with ease",
   "main": "src/index.js",
   "nyc": {
