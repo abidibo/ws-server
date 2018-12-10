@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/abidibo/ws-server.svg?branch=master)](https://travis-ci.com/abidibo/ws-server)
 [![Coverage Status](https://coveralls.io/repos/github/abidibo/ws-server/badge.svg?branch=master)](https://coveralls.io/github/abidibo/ws-server?branch=master)
+[![NPM](https://nodei.co/npm/ws-server-ftw.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ws-server-ftw/)
 
 > Mock websocket endpoints with ease
 
