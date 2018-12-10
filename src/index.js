@@ -20,6 +20,7 @@ function WSS (db, port) {
         ░          ░        ░     ░  ░   ░           ░     ░  ░   ░     
     `)
     console.log(`\nListening on localhost:${port}`)
+    console.log(`Press ctrl-c to exit`)
 
     // send data through socket
     let sendData = function (ws, req, data) {
