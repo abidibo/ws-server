@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "Mock websocket endpoints with ease",
   "main": "src/index.js",
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "include": [
+      "src/*"
+    ]
+  },
   "scripts": {
     "test": "NODE_ENV=test && nyc ./node_modules/.bin/mocha",
     "coverage": "npm run test && nyc report --reporter=text-lcov | coveralls",
@@ -39,6 +46,8 @@
     "eslint-plugin-standard": "^4.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
-    "nyc": "^13.1.0"
+    "nyc": "^13.1.0",
+    "proxyquire": "^2.1.0",
+    "sinon": "^7.2.0"
   }
 }
