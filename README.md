@@ -2,6 +2,8 @@
 
 > Mock websocket endpoints with ease
 
+[![Build Status](https://travis-ci.com/abidibo/ws-server.svg?branch=master)](https://travis-ci.com/abidibo/ws-server)
+
 ws-server was developed in order to allow a developer to easily mock websocket apis in a few seconds. The idea is taken from [json-server](https://github.com/typicode/json-server), a great package which let's you mock entire rest apis.
 
 # Install
