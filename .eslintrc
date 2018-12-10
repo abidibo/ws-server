@@ -1,0 +1,14 @@
+{
+  "extends" : [
+    "standard"
+  ],
+  "env"     : {
+    "node" : true
+  },
+  "plugins": [
+  ],
+  "rules": {
+    "semi" : [2, "never"],
+    "max-len": [2, 120, 2],
+  }
+}

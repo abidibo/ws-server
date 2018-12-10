@@ -1,0 +1,9 @@
+node_modules
+coverage
+db.json
+db.js
+.nyc_output
+.babelrc
+.eslintrc
+.travis.yml
+.coveralls.yml
