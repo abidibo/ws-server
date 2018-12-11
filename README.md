@@ -5,7 +5,7 @@
 
 > Mock websocket endpoints with ease
 
-ws-server was developed in order to allow a developer to easily mock websocket apis in a few seconds. The idea is taken from [json-server](https://github.com/typicode/json-server), a great package which let's you mock entire rest apis.
+ws-server was developed in order to allow a developer to easily mock websocket apis in a few seconds. The idea is taken from [json-server](https://github.com/typicode/json-server), a great package which lets you mock entire rest apis.
 
 ![Screenshot](screenshot.png)
 
@@ -17,7 +17,7 @@ ws-server was developed in order to allow a developer to easily mock websocket a
 
 # Getting started
 
-ws-server let's you send through a socket connection data defined in a json or js file.
+ws-server lets you send through a socket connection data defined in a json or js file.
 The mock server will serve the requested path traversing the json provided with the same path, i.e. the path `/foo/bar` will serve (if db is the json object) `db['foo']['bar']`
 
 A js file can be used instead of a json in order to perform operations or send random stuff, such js should export an object.
