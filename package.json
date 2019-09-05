@@ -3,6 +3,9 @@
   "version": "0.1.1",
   "description": "Mock websocket endpoints with ease",
   "main": "src/index.js",
+  "bin": {
+    "ws-server": "./bin/ws-server.js"
+  },
   "nyc": {
     "check-coverage": true,
     "per-file": true,
