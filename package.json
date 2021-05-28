@@ -37,7 +37,7 @@
     "argparse": "^1.0.10",
     "deepmerge": "^3.0.0",
     "terminal-kit": "^1.26.8",
-    "ws": "^6.1.2"
+    "ws": "^7.4.5"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
