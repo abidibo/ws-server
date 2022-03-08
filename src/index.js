@@ -53,7 +53,10 @@ function WSS (db, port) {
       console.log('Digit "merge <obj>" and press Enter to send data merged with obj (json valid)')
       console.log('Digit "deepmerge <obj>" and press Enter to send data deep-merged with obj (json valid)')
       console.log('Digit "append <arr>" and press Enter to send data concat with arr (json valid)')
-      ws.send(JSON.stringify(res))
+
+      try {
+        ws.send(JSON.stringify(res))
+      } catch (e) {}
     }
 
     wss.on('connection', function connection (ws, req) {
