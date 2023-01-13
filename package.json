@@ -36,7 +36,7 @@
   "dependencies": {
     "argparse": "^1.0.10",
     "deepmerge": "^3.0.0",
-    "terminal-kit": "^1.26.8",
+    "terminal-kit": "^2.1.8",
     "ws": "^6.1.2"
   },
   "devDependencies": {
